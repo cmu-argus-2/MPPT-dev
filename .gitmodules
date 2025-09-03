@@ -1,0 +1,3 @@
+[submodule "KiCad-Libraries"]
+	path = KiCad-Libraries
+	url = git@github.com:cmu-argus-2/KiCad-Libraries.git
