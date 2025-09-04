@@ -5,7 +5,7 @@
 	(uuid "3a9896a7-b181-4cc9-9e66-236aedac8a9d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MCU_ST_STM32L4:STM32L412KBUx"
+		(symbol "MCU_ST_STM32L4:STM32L412KBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32L412KBUx"
+			(property "Value" "STM32L412KBTx"
 				(at 5.08 26.67 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+			(property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm"
 				(at -10.16 -22.86 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32"
+			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, LQFP32"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.5mm*"
+			(property "ki_fp_filters" "LQFP*7x7mm*P0.8mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32L412KBUx_0_1"
+			(symbol "STM32L412KBTx_0_1"
 				(rectangle
 					(start -10.16 -22.86)
 					(end 10.16 25.4)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(symbol "STM32L412KBUx_1_1"
+			(symbol "STM32L412KBTx_1_1"
 				(pin input line
 					(at -12.7 20.32 0)
 					(length 2.54)
@@ -400,25 +400,6 @@
 						)
 					)
 					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 2.54)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -837,39 +818,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(label "SDA"
-		(at 86.36 91.44 0)
+	(wire
+		(pts
+			(xy 46.99 95.25) (xy 52.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125e3175-231d-4ad4-b38f-59c84d84fae6")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cc2bb4-f8bc-4938-bdd0-9b1944f68137")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 52.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5691102e-8eb6-4488-9965-f6b7c2edd2dd")
+	)
+	(wire
+		(pts
+			(xy 46.99 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef85d3c-f35d-4261-a339-9dbc5308008a")
+	)
+	(wire
+		(pts
+			(xy 46.99 102.87) (xy 52.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe1da10-c2ef-4539-87a4-9b57ad9f9219")
+	)
+	(wire
+		(pts
+			(xy 76.2 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13cb7f8-d41b-463a-8628-ddf2ee40df51")
+	)
+	(wire
+		(pts
+			(xy 46.99 105.41) (xy 52.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5a4864-0e6d-4e34-a59e-f99b23b25a43")
+	)
+	(wire
+		(pts
+			(xy 107.95 72.39) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f190b649-a372-46d0-af85-0ca2f75f90e2")
+	)
+	(wire
+		(pts
+			(xy 107.95 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8c4427-60c5-4dd1-a523-e5d96c2f19da")
+	)
+	(wire
+		(pts
+			(xy 76.2 102.87) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f7956-2203-49a6-a769-29b0dc48fafc")
+	)
+	(label "MODE"
+		(at 111.76 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9bf6dcb4-577e-42d0-9ca4-d2c73ee45003")
+		(uuid "3db1a99f-c98b-4249-aa00-4c04f79c75a6")
 	)
 	(label "SCL"
-		(at 86.36 82.55 0)
+		(at 50.8 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a96292e5-e9cf-48e2-9fa8-c630d05bb856")
+		(uuid "61d5a9cc-9d93-43b5-ad6a-38b8b46d3914")
+	)
+	(label "VIN_RD"
+		(at 111.76 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b2922a1-2b40-4a37-8a6d-70b94d3010f6")
+	)
+	(label "MODE"
+		(at 52.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "826cf32c-8978-43e4-94aa-6e83c196f94a")
+	)
+	(label "SCL"
+		(at 76.2 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dae3879-c815-4f52-be41-6e7f6784a0aa")
+	)
+	(label "SDA"
+		(at 76.2 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e13432-55a3-4375-954f-e6b518ddd42e")
+	)
+	(label "VIN_RD"
+		(at 52.07 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b48e5390-0af2-48a3-99e0-95634fd94fc5")
+	)
+	(label "ICHG_RD"
+		(at 52.07 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5b1c65a-7a83-4c89-a468-ddd4f4492ce5")
+	)
+	(label "ICHG_RD"
+		(at 111.76 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be6c548a-4ce5-4004-921f-aa239ccfe21c")
+	)
+	(label "SDA"
+		(at 52.07 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2cc86ae-65e2-49d4-b48b-45137ce9f361")
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32L4:STM32L412KBUx")
-		(at 69.85 92.71 0)
+		(lib_id "MCU_ST_STM32L4:STM32L412KBTx")
+		(at 95.25 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b20e71b4-cfd6-45cc-8118-858aa27d28ea")
+		(uuid "0ac5ce71-0408-4ea6-85dd-ab047527750f")
 		(property "Reference" "U1"
-			(at 71.9933 118.11 0)
+			(at 97.3933 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,8 +1139,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32L412KBUx"
-			(at 71.9933 120.65 0)
+		(property "Value" "STM32L412KBTx"
+			(at 97.3933 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,8 +1148,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 59.69 115.57 0)
+		(property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm"
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +1159,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l412kb.pdf"
-			(at 69.85 92.71 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,113 +1167,110 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32"
-			(at 69.85 92.71 0)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 40KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, LQFP32"
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "28"
-			(uuid "53b3071f-ebdb-4372-837c-bad3b1b915b6")
-		)
-		(pin "5"
-			(uuid "a61bddff-5ba9-42bb-95bf-30f1b6e1a323")
-		)
-		(pin "2"
-			(uuid "d358b568-c922-4a61-ab27-f4b0a8ded8ff")
-		)
-		(pin "15"
-			(uuid "3a2829e0-8a07-468f-a646-2534bfa0abb5")
-		)
-		(pin "4"
-			(uuid "6a9a398b-36ce-464f-ab13-178a94a791e4")
-		)
-		(pin "21"
-			(uuid "069a77e6-02d4-4270-a1d6-79739b74ac42")
-		)
-		(pin "3"
-			(uuid "d15250e8-a861-440b-b37a-6869a1cab560")
-		)
-		(pin "31"
-			(uuid "4b958ad3-5bc4-4118-9eda-092bb7e19900")
-		)
-		(pin "30"
-			(uuid "ad0f2837-6e4a-48a2-8521-d2c171db69b1")
-		)
-		(pin "9"
-			(uuid "10dc71e2-a57b-443f-8700-605cd2bb1d59")
-		)
-		(pin "33"
-			(uuid "3a88ff29-6ced-4792-a197-cacc462eb6da")
-		)
-		(pin "27"
-			(uuid "775cc5d0-c9e7-4988-b6d2-64f083b8ccec")
-		)
-		(pin "11"
-			(uuid "78365fdc-d681-4bec-8924-92d96d2f58b0")
-		)
-		(pin "13"
-			(uuid "df75d59e-f2d4-401c-bc0d-c82c39433a1d")
-		)
-		(pin "17"
-			(uuid "145cb5d2-c3ee-4805-aaeb-af9507e42f68")
-		)
-		(pin "25"
-			(uuid "f8e447a8-fb95-4a0c-82ca-a0744eb48ee4")
-		)
-		(pin "23"
-			(uuid "be5f3511-5835-4a92-a890-cec81ba050e1")
-		)
-		(pin "24"
-			(uuid "05410191-aae8-4a57-90ee-a0a1839833d0")
-		)
-		(pin "12"
-			(uuid "c7a3badf-a3e0-48d0-aa36-14ca1c16bf52")
-		)
-		(pin "18"
-			(uuid "be3bfac9-9dc1-4feb-a121-fdd4e5b57b27")
 		)
 		(pin "22"
-			(uuid "b4a3d44e-09b1-4123-8802-c5ee5cd8149b")
+			(uuid "2a529fc1-c2ab-4f9d-b09e-b902ff33f156")
+		)
+		(pin "18"
+			(uuid "228fb958-4b42-482a-8e22-c71fb3be73af")
+		)
+		(pin "11"
+			(uuid "0eba0431-bee1-40b6-821c-c6976072bc0e")
+		)
+		(pin "9"
+			(uuid "65de6610-b463-4b46-809f-8b5a4e654a1c")
+		)
+		(pin "12"
+			(uuid "89884ee8-10f0-4f6f-ae34-a6bb4c9ff336")
+		)
+		(pin "25"
+			(uuid "f0c2d133-7436-4f44-b256-86e2b8de03ef")
 		)
 		(pin "19"
-			(uuid "d2b58797-e49b-46a2-aa4c-a1bf0ad74225")
+			(uuid "cd7c8a39-5e18-41ce-b972-dbf618a0da13")
 		)
-		(pin "20"
-			(uuid "bc120446-5b08-4ac8-834f-42b2469916a7")
+		(pin "24"
+			(uuid "feeee751-9260-4116-aa6c-885f1c8796e8")
 		)
-		(pin "29"
-			(uuid "c84b7347-ff13-4538-a743-8dee43275cc8")
-		)
-		(pin "7"
-			(uuid "bc4d2264-4663-4568-9945-8f6ce1852630")
-		)
-		(pin "16"
-			(uuid "32aaae1d-09fc-4aa5-9362-8561ab2ad0dd")
-		)
-		(pin "14"
-			(uuid "002e9479-ebd7-4794-ba75-8712caef5d26")
-		)
-		(pin "32"
-			(uuid "876f2734-761b-4e5b-b346-0fabe91f6cbf")
-		)
-		(pin "1"
-			(uuid "e334201b-34a7-418d-ab71-044902defb04")
-		)
-		(pin "8"
-			(uuid "96dfc22b-efb9-48f6-9fb8-30d6ea59947b")
-		)
-		(pin "26"
-			(uuid "145dfb1c-fd88-4c63-be21-d0c3aea2e9ae")
-		)
-		(pin "6"
-			(uuid "59ff533a-64ec-4715-8adb-dc45508942af")
+		(pin "23"
+			(uuid "c47db0d7-b08e-45f6-bb2b-0e211bd2a687")
 		)
 		(pin "10"
-			(uuid "8fc6a810-318a-49c2-8f2c-03741b77a7d1")
+			(uuid "dd01523d-bafd-441c-82f4-a2fc6bfcf559")
+		)
+		(pin "20"
+			(uuid "a83c097b-e8bc-45ee-b815-53b4a23058b4")
+		)
+		(pin "13"
+			(uuid "8999647e-1907-46d6-904f-e4487e4b9732")
+		)
+		(pin "21"
+			(uuid "dc2c301b-bd2a-4246-b1e3-62e2084d4913")
+		)
+		(pin "6"
+			(uuid "5c5395ff-a873-45ce-8fbe-8066f36c4aa2")
+		)
+		(pin "28"
+			(uuid "24dbabb1-9d7b-4d16-98b3-665adc9d8ee4")
+		)
+		(pin "8"
+			(uuid "817f9434-8561-497a-9134-09d953d1ac3b")
+		)
+		(pin "2"
+			(uuid "81b9fa67-0a78-4da8-8076-c79bf0ae1559")
+		)
+		(pin "31"
+			(uuid "17769050-219a-4970-b402-122735c64b91")
+		)
+		(pin "30"
+			(uuid "9e52ade1-6752-4cf0-b036-05bd3515907b")
+		)
+		(pin "7"
+			(uuid "adbd3a83-4934-4955-9e02-932fed0ceef3")
+		)
+		(pin "32"
+			(uuid "25c3a08a-8ae0-4f60-80ff-f3f5ccd6315a")
+		)
+		(pin "4"
+			(uuid "8b02f0f6-79f9-465b-8a27-ee29701bbba9")
+		)
+		(pin "5"
+			(uuid "5ee3bc56-ba2e-414f-a4d6-86136791ad1a")
+		)
+		(pin "17"
+			(uuid "2670fa33-bf78-4c0e-9d0f-4399ac304b74")
+		)
+		(pin "26"
+			(uuid "ad8ab5c6-455f-4fad-a1cd-3907321e540d")
+		)
+		(pin "27"
+			(uuid "214f5270-7453-4776-a423-eceb1597e92b")
+		)
+		(pin "16"
+			(uuid "2df01567-e32d-44f8-ad98-84145b78b688")
+		)
+		(pin "14"
+			(uuid "c60ea58d-6018-414f-a2a4-001e76d46c01")
+		)
+		(pin "29"
+			(uuid "65544c30-6e6b-4c38-9dc2-5a1aca90e389")
+		)
+		(pin "1"
+			(uuid "9ee645b6-8da4-4984-91c6-5fc5e55cc2eb")
+		)
+		(pin "3"
+			(uuid "5e946f4c-bd85-429e-ac7e-aa2612020b83")
+		)
+		(pin "15"
+			(uuid "eda10195-66ff-4854-82ee-6662937e9739")
 		)
 		(instances
 			(project ""
@@ -1022,9 +1281,75 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d12e257-bf4f-4d2e-811e-578bbed40a88")
+		(property "Reference" "#PWR015"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a2e7b5-8d52-47f1-8563-ec5e3ce3ca82")
+		)
+		(instances
+			(project ""
+				(path "/3a9896a7-b181-4cc9-9e66-236aedac8a9d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 128.27 63.5)
-		(size 35.56 55.88)
+		(at 27.305 92.71)
+		(size 19.685 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1039,7 +1364,7 @@
 		)
 		(uuid "2760fde4-3172-458f-be0d-1caba7f529e8")
 		(property "Sheetname" "MPPT"
-			(at 128.27 62.7884 0)
+			(at 27.305 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,8 +1372,100 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 128.27 119.9646 0)
+		(property "Sheetfile" "mppt.kicad_sch"
+			(at 27.305 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ICHG_RD" output
+			(at 46.99 100.33 0)
+			(uuid "5777d285-e917-43f9-9321-d3ab937137af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 46.99 105.41 0)
+			(uuid "cc53bd61-3dce-450d-81b8-fab5a4013e6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_RD" output
+			(at 46.99 97.79 0)
+			(uuid "c2a1a0e2-450a-4cbc-9386-b7e9f9fca364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 46.99 102.87 0)
+			(uuid "695a7c48-bc04-4443-aaa1-840d7a3519c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MODE" input
+			(at 46.99 95.25 0)
+			(uuid "e6ad83a5-6520-4f04-87b4-9b6f96708d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MPPT-dev"
+				(path "/3a9896a7-b181-4cc9-9e66-236aedac8a9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 107.95)
+		(size 15.875 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb957678-0a78-48c8-a1ed-a8576e7a9517")
+		(property "Sheetname" "USB"
+			(at 163.83 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 163.83 119.3296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1476,7 @@
 		(instances
 			(project "MPPT-dev"
 				(path "/3a9896a7-b181-4cc9-9e66-236aedac8a9d"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

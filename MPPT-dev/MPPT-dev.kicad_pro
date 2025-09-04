@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -415,6 +416,10 @@
     [
       "2760fde4-3172-458f-be0d-1caba7f529e8",
       "MPPT"
+    ],
+    [
+      "bb957678-0a78-48c8-a1ed-a8576e7a9517",
+      "USB"
     ]
   ],
   "text_variables": {}
