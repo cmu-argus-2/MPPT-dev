@@ -4833,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TO252_DMP6180SK3_DIO"
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
 			(at 110.49 113.03 0)
 			(effects
 				(font

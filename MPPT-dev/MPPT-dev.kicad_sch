@@ -1196,7 +1196,7 @@
 		)
 		(uuid "4421fb4e-493e-4a35-869e-f0ea743459eb")
 	)
-	(label "MODE"
+	(label "VIN_RD"
 		(at 52.07 146.05 0)
 		(effects
 			(font
@@ -1226,7 +1226,7 @@
 		)
 		(uuid "826cf32c-8978-43e4-94aa-6e83c196f94a")
 	)
-	(label "VIN_RD"
+	(label "ICHG_RD"
 		(at 52.07 148.59 0)
 		(effects
 			(font
@@ -1286,7 +1286,7 @@
 		)
 		(uuid "baae99d2-1618-42e4-b079-978b99a08c9a")
 	)
-	(label "ICHG_RD"
+	(label "MODE"
 		(at 52.07 151.13 0)
 		(effects
 			(font
@@ -1419,7 +1419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -1716,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 41.91 151.13 0)
 			(effects
 				(font
