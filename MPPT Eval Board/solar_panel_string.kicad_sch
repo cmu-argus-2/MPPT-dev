@@ -1,0 +1,3503 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "549d752f-6f45-4466-9b35-0c46f9f9d707")
+	(paper "A4")
+	(title_block
+		(title "MPPT Evaluation Board")
+		(date "2026-01-27")
+		(rev "v1.0")
+		(company "Carnegie Mellon University")
+		(comment 1 "A. Guo")
+		(comment 2 "A. Garg")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Solar_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SC"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Solar_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single solar cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solar cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Solar_Cell_0_1"
+				(polyline
+					(pts
+						(xy -2.032 3.048) (xy -2.032 2.286) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.286) (xy -3.556 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 1.778)
+					(end 2.032 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 1.1938)
+					(end 1.27 0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.556) (xy -0.762 2.794) (xy -1.524 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.794) (xy -2.286 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.667) (xy 1.27 2.667)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Solar_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 119.38 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d24f1a1-0ff5-44c3-8e98-ef04e8662eba")
+	)
+	(junction
+		(at 104.14 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21334534-221e-4a97-839a-6a4fbc45ab03")
+	)
+	(junction
+		(at 165.1 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d50c514-f2ea-4c71-8064-eac66276646b")
+	)
+	(junction
+		(at 165.1 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0e8840-cc7f-418f-8246-88bf56643f3c")
+	)
+	(junction
+		(at 134.62 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a98e68ec-8be5-4518-8d53-cb8baf287de5")
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d5c003-c2f1-4bff-8326-29397568a7df")
+	)
+	(junction
+		(at 149.86 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c97bc1-d48a-42d7-a37a-919e3658b736")
+	)
+	(junction
+		(at 180.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0cc8a7a-5b26-4b22-ab54-d51ed41ddd97")
+	)
+	(junction
+		(at 119.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6ab53ee-4f35-4d11-a9e3-3882699bb2c7")
+	)
+	(junction
+		(at 180.34 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75a173c-30a3-4b48-9e76-17aad7af045d")
+	)
+	(junction
+		(at 149.86 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef459986-f72a-4c18-afc6-d69e5ffebd4f")
+	)
+	(junction
+		(at 134.62 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b39a4a-a867-4de9-bf0c-b19b0a75f675")
+	)
+	(junction
+		(at 201.93 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6271646-0287-4862-8c6d-e6a25b64ad33")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0229cd8c-b010-456c-9223-e93f124d0bf1")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bcb177-2490-44bb-ac26-cfaa57715529")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0547fbb6-9cd8-4028-aa3e-df46aa5e4080")
+	)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5bb3df-dab9-4942-9d5e-07664a53b857")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15af9971-66a9-4da4-8c27-5bfa07005e2c")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aa524f-e3bb-4308-9779-dfff0aed953c")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c84312e-72f5-49aa-a19b-94071f8c201b")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40089437-18da-4f29-b9a9-dffd0826edbc")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 165.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6c9e20-9937-43e4-a7c7-6ba7b49e6fc3")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54adc39c-0f15-46c8-bfc3-fe37d3289fcb")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d00bd8-4045-4e9f-b8d0-25a164fbfe41")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6d11f6-5a24-47fa-99b9-61ff9beba69c")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742ebea0-0e7a-43dc-ae70-7c6801e166d2")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7448819b-0185-4690-92bf-2b39e1a6a516")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754853c9-eeb3-4d44-9064-9e79adba717e")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd2b18e-4acb-43c6-8f24-25d29edd2f7b")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ec44e8-cde3-4ff4-acc5-7a75a549144e")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9267f3aa-503d-4888-a0be-69f86df9669a")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9969b5d7-1d29-4f64-8fdd-3b4e19739c4b")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b23cd05-a480-4f78-bc3d-20956e18499e")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4b192c-8e85-4b73-9152-8f70ddce3da0")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebe8cc1-11ec-443b-add4-fc52b13e1202")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec2271b-d89f-461a-8df1-35bf86aa49e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cc010f-cfc8-4b78-bd91-ce906792985d")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae944d07-f740-4ded-a930-c84eca1d6864")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c439e0c9-85c9-4d19-934b-6d8d51945e9c")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33f9468-5b41-4955-948e-cae0cfc162a4")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3457348-560c-49eb-bd41-ab5e41b49413")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d536e1bb-f13a-4100-b3ce-86ad5b94024a")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66c743a-7b0c-424c-a3ad-5fc7f637884d")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c44100-2387-4d10-afd9-66abbc5fba06")
+	)
+	(wire
+		(pts
+			(xy 189.23 91.44) (xy 201.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bc0cad-4670-48f4-bd39-7cc4a481cee5")
+	)
+	(wire
+		(pts
+			(xy 176.53 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98b0b3d-a7fe-4ce5-85a8-75c8c11e296a")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46bcf13-6ff1-4a65-ab60-0a0a71aa16ce")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb78f87e-3841-4cee-8534-4c42a9e3051b")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd60d6b-5618-47cf-ad47-9c2f2fdf2033")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5fe928-f61d-4dc5-8a1c-036ea6c033f1")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc93e8e6-fc1c-40f6-8994-9bab182ae8fa")
+	)
+	(label "VSOLAR"
+		(at 199.39 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf2bed46-5c2b-45b9-8653-5887cef380d1")
+	)
+	(hierarchical_label "VCHRG"
+		(shape output)
+		(at 205.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "693f7da0-afd4-469c-ab5b-6507a64cee71")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 201.93 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0637b510-b0a6-46ce-bb93-4acf32f611b5")
+		(property "Reference" "TP1"
+			(at 204.47 86.8679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.47 89.4079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 207.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4618a1b-621f-4eff-ae9a-e375c0e2a13a")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 156.21 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1773ad24-087b-4b1f-b3ca-9b397468d3d9")
+		(property "Reference" "SC4"
+			(at 157.734 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 157.988 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 157.734 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.734 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 156.21 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e9b9c48-7d20-4757-b374-455d09167917")
+		)
+		(pin "1"
+			(uuid "3971fff9-1c54-4aff-af95-b369756e1bb8")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "SC29")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "SC19")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "SC24")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "SC4")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "SC9")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "SC14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23162139-6839-4d6f-969e-288fe26678b4")
+		(property "Reference" "H6"
+			(at 166.3701 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 163.8301 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff026f61-77ee-4459-96d8-3443f4e0daf5")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H46")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H30")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H38")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H6")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H14")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a541ace-644c-4f1d-99b7-2931e95f9620")
+		(property "Reference" "H1"
+			(at 105.4101 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 102.8701 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfabee83-eddd-41d7-b7f2-948f8764193d")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H41")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H25")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H33")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H1")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H9")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 171.45 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37977f0d-2502-4af9-a8ca-dea61237bcd1")
+		(property "Reference" "SC5"
+			(at 172.974 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 173.228 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 172.974 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.974 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb8e4628-cdcc-4651-8bf9-d88bbc2d8570")
+		)
+		(pin "1"
+			(uuid "20822239-4fb0-4410-89a3-86660fd2c341")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "SC30")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "SC20")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "SC25")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "SC5")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "SC10")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "SC15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 134.62 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a734dfa-37b5-4e27-a2e4-79e43ad56f82")
+		(property "Reference" "H4"
+			(at 135.8901 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 133.3501 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "765ae77c-3a95-4992-99bb-0393aca83be0")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H44")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H28")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H36")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H4")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H12")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e4cb544-4d10-4aaf-bac5-d01cbfe7e87d")
+		(property "Reference" "#PWR08"
+			(at 104.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baf508e6-728f-4ddc-ab92-124a5e8450bd")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 110.49 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ecb4e9c-27f0-4b9b-b2e5-97299de86757")
+		(property "Reference" "SC1"
+			(at 112.014 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 112.268 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 112.014 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.014 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 110.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29ad3f0f-6a1a-45b3-9560-a4e84f655c6e")
+		)
+		(pin "1"
+			(uuid "0489d6b8-9780-438e-947b-fe631b9d001b")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "SC26")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "SC16")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "SC21")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "SC1")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "SC6")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "SC11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 180.34 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "511ba126-f0c7-4575-9e27-f3774ef59d62")
+		(property "Reference" "H8"
+			(at 181.6101 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 179.0701 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 180.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbc4ee44-a7a0-448d-a60d-a4555ab97d36")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H48")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H32")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H40")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H8")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H16")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 157.48 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5791f9cc-db8b-4bb3-9e43-4e84da747af2")
+		(property "Reference" "D7"
+			(at 157.48 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 157.48 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 157.48 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 157.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bc6bdb5-d407-4c92-9682-40e602340f22")
+		)
+		(pin "2"
+			(uuid "f14b47bf-52a3-4a1d-9fee-ad178f77985f")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 140.97 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "610328c5-85e7-4689-8372-60db25538c95")
+		(property "Reference" "SC3"
+			(at 142.494 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 142.748 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 142.494 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.494 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 140.97 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8273d20-e0c3-45f5-9a2f-70c268d254fd")
+		)
+		(pin "1"
+			(uuid "d5674a74-be42-4098-8f17-4a7acb8136b4")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "SC28")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "SC18")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "SC23")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "SC3")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "SC8")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "SC13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 127 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7085d05a-d804-4efa-99fe-37e1cd20a3af")
+		(property "Reference" "D5"
+			(at 127 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 127 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 127 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 127 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12f4ad43-5275-4149-8c69-1cd968b167d6")
+		)
+		(pin "2"
+			(uuid "041ef685-d6b1-4de2-9cb3-25ccebf97167")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Solar_Cell")
+		(at 125.73 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bacbdaf-5206-49de-b743-27fa74a212fc")
+		(property "Reference" "SC2"
+			(at 127.254 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM141K06TF/S"
+			(at 127.508 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Miscellaneous:SM141K06TF_S"
+			(at 127.254 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.254 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single solar cell"
+			(at 125.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b334841-5b6c-41e1-b8e5-44c0013cdd46")
+		)
+		(pin "1"
+			(uuid "4c19ae5b-f993-4936-9cbf-b76e5b979bc8")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "SC27")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "SC17")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "SC22")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "SC2")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "SC7")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "SC12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bbdb320-c6ea-46c5-b37c-2a7e7c11796f")
+		(property "Reference" "H2"
+			(at 120.6501 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.1101 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04fbfcb5-9e36-4d06-a912-481e2c87a602")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H42")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H26")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H34")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H2")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H10")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a40324f6-c1c7-4233-a988-880754e99c82")
+		(property "Reference" "H3"
+			(at 120.6501 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.1101 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d15a167b-a298-4682-9701-252ee52258ee")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H43")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H27")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H35")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H3")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H11")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 149.86 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a454e957-0fd3-4bb9-a28f-9a98697c84d9")
+		(property "Reference" "H5"
+			(at 151.1301 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 148.5901 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 149.86 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "228f6ea7-23fc-4fbb-a887-c03d84029721")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H45")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H29")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H37")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H5")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H13")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 101.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0c2a011-d9c4-4e43-8091-4573abae2329")
+		(property "Reference" "H7"
+			(at 166.37 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 163.83 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f70c9b71-dc93-4414-9b36-afe849e9823a")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "H47")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "H31")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "H39")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "H7")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "H15")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "H23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 142.24 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d57a07af-9748-4439-a7a5-d5c4913b8ea1")
+		(property "Reference" "D6"
+			(at 142.24 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 142.24 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 142.24 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 142.24 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dfdcbfe-42b1-431d-b6f7-26c912dc6d9a")
+		)
+		(pin "2"
+			(uuid "44cf7552-7501-480d-8b6a-295bf28d29dc")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 186.69 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7a7964b-0072-4b20-b8d6-d3a4e50081ce")
+		(property "Reference" "F4"
+			(at 186.69 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 186.69 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 186.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 186.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Flight" "0R"
+			(at 186.69 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "595c91e2-5e0f-4321-90da-2d2d7a155591")
+		)
+		(pin "1"
+			(uuid "e4130f45-6c39-415f-a18a-4e85e6eddc93")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "F6")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 172.72 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d880ccb1-3e91-485c-8a54-5e4e50b53aac")
+		(property "Reference" "D8"
+			(at 172.72 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 172.72 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 172.72 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 172.72 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00ac6339-54dc-4d97-932d-ee9568fa4f87")
+		)
+		(pin "2"
+			(uuid "4cb36f78-d103-47bd-98ed-c8d927c3592c")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 111.76 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7873e7a-f5a6-449a-bf9e-8c7326b767e9")
+		(property "Reference" "D4"
+			(at 111.76 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130LQ-7"
+			(at 111.76 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
+			(at 111.76 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 111.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5e74074-70ee-489c-a299-eb9d82b5c65a")
+		)
+		(pin "2"
+			(uuid "8507b11f-cce6-4528-8d06-2ccfb11b1a40")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/005c169b-77b0-4c9f-9e77-f402eaa2e461"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/47480fca-2c38-4990-bf3d-32c817ae0406"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/7f48dcce-ac63-4c62-bc05-356d3bb5aae7"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/b4135f5d-4784-451d-8a2f-8701e86a974b"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/d1ebb1f9-addb-468b-90e7-4e724f38178f"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2/dadf2483-b98f-47f5-b5e9-58a8c42fc9a1"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

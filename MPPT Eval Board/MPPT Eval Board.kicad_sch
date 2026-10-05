@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f286b3a3-72b5-4aac-bde0-c8c97c673d46")
+	(paper "A4")
+	(title_block
+		(title "MPPT Evaluation Board")
+		(date "2026-01-27")
+		(rev "v1.0")
+		(company "Carnegie Mellon University")
+		(comment 1 "A. Guo")
+		(comment 2 "A. Garg")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9a3a8c-976c-4fc7-abdd-f0141e16c1b7")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0577b8e-64bc-41a3-8766-60460fddb754")
+	)
+	(sheet
+		(at 105.41 85.09)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "142ee938-1f7b-4681-ba41-a3ed8e04ceb8")
+		(property "Sheetname" "Batteries 2"
+			(at 105.41 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 105.41 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_P" bidirectional
+			(at 105.41 92.71 180)
+			(uuid "2fce8be8-3186-42e3-b12a-2e9a09e40703")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 59.69)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "93ff38a5-1c16-459f-a6b8-5db126d8cff1")
+		(property "Sheetname" "MPPC Implementation"
+			(at 50.8 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPPC_Implementation.kicad_sch"
+			(at 50.8 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCHARGE" output
+			(at 76.2 67.31 0)
+			(uuid "12b37f10-966d-46d1-bf78-49b085d06a1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 59.69)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "970b9934-310c-419d-bbb0-00eae42dbd81")
+		(property "Sheetname" "Batteries 1"
+			(at 105.41 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 105.41 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_P" bidirectional
+			(at 105.41 67.31 180)
+			(uuid "0eb3349f-d76d-4017-bd0b-6f99c7669eb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 85.09)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2")
+		(property "Sheetname" "MPPT Implementation"
+			(at 50.8 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPPT_implementation.kicad_sch"
+			(at 50.8 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCHARGE" output
+			(at 76.2 92.71 0)
+			(uuid "d9aa36e4-5e0b-469f-8133-dfee5a383eb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

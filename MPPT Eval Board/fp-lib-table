@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Argus-Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Connectors.pretty")(options "")(descr ""))
+  (lib (name "Argus-Miscellaneous")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Miscellaneous.pretty")(options "")(descr ""))
+  (lib (name "Argus-IC")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-IC.pretty")(options "")(descr ""))
+  (lib (name "Argus-Passives")(type "KiCad")(uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Passives.pretty")(options "")(descr ""))
+)
