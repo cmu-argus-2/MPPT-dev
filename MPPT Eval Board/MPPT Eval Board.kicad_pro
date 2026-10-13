@@ -431,7 +431,7 @@
         "uuid": "f286b3a3-72b5-4aac-bde0-c8c97c673d46"
       }
     ],
-    "used_designators": "TP1-18,L1-9,#GND11-13,J1-6,R1-90,H1-72,Q1-21,#PWR1-51,D1-54,C1-60,U1-17,F1-19,SC1-45",
+    "used_designators": "TP1-24,L1-9,#GND11-13,J1-6,R1-90,H1-72,Q1-21,#PWR1-51,D1-54,C1-60,U1-17,F1-19,SC1-45",
     "variants": []
   },
   "sheets": [
@@ -460,14 +460,6 @@
       "MPPT Implementation"
     ],
     [
-      "cc2e24f8-7fe7-4fea-802a-3162fb71f2e7",
-      "Charge OR-ing 1"
-    ],
-    [
-      "657ffe31-7529-4bb3-b698-36290187535c",
-      "Charge OR-ing 2"
-    ],
-    [
       "a5ac04e3-3973-4847-b9e6-f9324013ddf6",
       "MPPT2"
     ],
@@ -478,10 +470,6 @@
     [
       "b4135f5d-4784-451d-8a2f-8701e86a974b",
       "Solar String 2"
-    ],
-    [
-      "696ae414-4127-453b-b047-a5b3c3f23168",
-      "Charge OR-ing 3"
     ],
     [
       "d1ebb1f9-addb-468b-90e7-4e724f38178f",

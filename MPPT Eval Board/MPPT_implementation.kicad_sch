@@ -597,26 +597,26 @@
 		)
 	)
 	(junction
-		(at 224.79 83.82)
+		(at 220.98 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a11e657e-7a0a-4175-b464-9bdbf6b10203")
 	)
 	(junction
-		(at 207.01 83.82)
+		(at 198.12 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7c15146-fd11-4c3d-9288-dc3d27727bde")
 	)
 	(junction
-		(at 209.55 83.82)
+		(at 200.66 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c81db900-eab7-4f78-acac-cd478a3ed6f9")
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 172.72 107.95)
+			(xy 190.5 109.22) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 83.82) (xy 224.79 88.9)
+			(xy 220.98 85.09) (xy 220.98 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -636,7 +636,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 172.72 83.82)
+			(xy 200.66 85.09) (xy 220.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baee9ac-ddc0-41c4-a5e1-d55ea3b1a2c1")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -646,7 +656,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 172.72 58.42)
+			(xy 190.5 59.69) (xy 200.66 59.69)
 		)
 		(stroke
 			(width 0)
@@ -656,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 83.82) (xy 209.55 83.82)
+			(xy 198.12 85.09) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -666,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 93.98) (xy 224.79 97.79)
+			(xy 220.98 95.25) (xy 220.98 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -676,17 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 58.42) (xy 209.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710d251b-a121-41a3-aaea-bb38712fc40c")
-	)
-	(wire
-		(pts
-			(xy 224.79 83.82) (xy 229.87 83.82)
+			(xy 220.98 85.09) (xy 226.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -696,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 58.42) (xy 142.24 58.42)
+			(xy 143.51 58.42) (xy 167.64 58.42)
 		)
 		(stroke
 			(width 0)
@@ -706,37 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 83.82) (xy 224.79 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d8e122-d23b-417b-a4da-533de4dff98f")
-	)
-	(wire
-		(pts
-			(xy 194.31 107.95) (xy 209.55 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4384ec2-5707-4553-bf2f-733e6386a481")
-	)
-	(wire
-		(pts
-			(xy 194.31 83.82) (xy 207.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0836da-8a7a-44ee-9d6b-8999ccbf1894")
-	)
-	(wire
-		(pts
-			(xy 118.11 107.95) (xy 142.24 107.95)
+			(xy 143.51 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -746,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 142.24 83.82)
+			(xy 143.51 83.82) (xy 167.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -756,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 83.82) (xy 209.55 107.95)
+			(xy 200.66 85.09) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 209.55 83.82)
+			(xy 200.66 59.69) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +745,7 @@
 		(uuid "eac2f56b-acbb-4aaf-a514-7a0d43213c22")
 	)
 	(label "VSOLAR1"
-		(at 124.46 58.42 0)
+		(at 149.86 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +755,7 @@
 		(uuid "3b098c35-514c-430f-901b-c5257c3c4603")
 	)
 	(label "VSOLAR1"
-		(at 124.46 107.95 0)
+		(at 149.86 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -795,7 +765,7 @@
 		(uuid "6b0e486e-c9da-4c90-9acf-e10f4540dbf5")
 	)
 	(label "VCHRG"
-		(at 218.44 83.82 0)
+		(at 214.63 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -805,7 +775,7 @@
 		(uuid "86b5bf6a-d74a-47fb-8e4e-a5f4d01af739")
 	)
 	(label "VSOLAR1"
-		(at 124.46 83.82 0)
+		(at 149.86 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -816,7 +786,7 @@
 	)
 	(hierarchical_label "VCHARGE"
 		(shape output)
-		(at 229.87 83.82 0)
+		(at 226.06 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -827,7 +797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 224.79 91.44 180)
+		(at 220.98 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -837,7 +807,7 @@
 		(dnp no)
 		(uuid "1693af8f-6866-4c96-9496-968b33c42ac1")
 		(property "Reference" "R62"
-			(at 226.06 90.424 0)
+			(at 222.25 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -848,7 +818,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 226.06 92.456 0)
+			(at 222.25 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -859,7 +829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 224.79 91.44 0)
+			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -870,7 +840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 91.44 0)
+			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -881,7 +851,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 224.79 91.44 0)
+			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,7 +862,7 @@
 			)
 		)
 		(property "MPN" "C2479067"
-			(at 224.79 91.44 0)
+			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +889,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.01 83.82 0)
+		(at 198.12 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -927,10 +897,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "25a009b3-f6d1-4da1-81f5-dc48dd794da0")
 		(property "Reference" "TP15"
-			(at 209.55 79.2479 0)
+			(at 200.66 80.5179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -941,7 +910,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 209.55 81.7879 0)
+			(at 205.74 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -952,7 +921,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
-			(at 212.09 83.82 0)
+			(at 203.2 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -963,7 +932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 83.82 0)
+			(at 203.2 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +943,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.01 83.82 0)
+			(at 198.12 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -998,7 +967,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 224.79 100.33 90)
+		(at 220.98 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1008,7 +977,7 @@
 		(dnp no)
 		(uuid "3ca55746-5b7b-4e6c-bc14-8c7b1f8fb1fa")
 		(property "Reference" "D48"
-			(at 226.314 99.314 90)
+			(at 222.504 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1019,7 +988,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 228.6 102.616 90)
+			(at 224.79 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1030,7 +999,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 224.79 100.33 90)
+			(at 220.98 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 100.33 90)
+			(at 220.98 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1021,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 224.79 100.33 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1063,7 +1032,7 @@
 			)
 		)
 		(property "MPN" "C2909774"
-			(at 224.79 100.33 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1075,7 +1044,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 100.33 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 102.87 0)
+		(at 220.98 104.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1113,7 +1082,7 @@
 		(dnp no)
 		(uuid "73ce1877-eadd-40a8-ba1f-7b27e457743e")
 		(property "Reference" "#PWR025"
-			(at 224.79 109.22 0)
+			(at 220.98 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 106.426 0)
+			(at 220.98 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1134,7 +1103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 102.87 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1145,7 +1114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 102.87 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1156,7 +1125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 102.87 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1179,7 +1148,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 101.6)
+		(at 167.64 101.6)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1195,7 +1164,7 @@
 		)
 		(uuid "07cda7d2-d711-4019-81c7-9acd969cea45")
 		(property "Sheetname" "MPPT3"
-			(at 142.24 100.8884 0)
+			(at 167.64 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1206,7 +1175,7 @@
 			)
 		)
 		(property "Sheetfile" "MPPT.kicad_sch"
-			(at 142.24 116.1546 0)
+			(at 167.64 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1217,7 +1186,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 142.24 107.95 180)
+			(at 167.64 107.95 180)
 			(uuid "3ad418d4-b2f8-49c4-b2ff-2295b40c3bf8")
 			(effects
 				(font
@@ -1227,7 +1196,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 165.1 107.95 0)
+			(at 190.5 109.22 0)
 			(uuid "fd34417b-5ef2-4801-b2a7-77d1fc9bdede")
 			(effects
 				(font
@@ -1245,139 +1214,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 77.47)
-		(size 21.59 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "657ffe31-7529-4bb3-b698-36290187535c")
-		(property "Sheetname" "Charge OR-ing 2"
-			(at 172.72 76.7584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ChargeOR.kicad_sch"
-			(at 172.72 92.0246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 172.72 83.82 180)
-			(uuid "910e3568-4759-445c-8812-b2c408f342be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" output
-			(at 194.31 83.82 0)
-			(uuid "c08056d2-9339-4add-a86f-a8fd837efd94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "MPPT Eval Board"
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 172.72 101.6)
-		(size 21.59 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "696ae414-4127-453b-b047-a5b3c3f23168")
-		(property "Sheetname" "Charge OR-ing 3"
-			(at 172.72 100.8884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ChargeOR.kicad_sch"
-			(at 172.72 116.1546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 172.72 107.95 180)
-			(uuid "6702b64d-2227-4456-ab4a-667c7568376f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" output
-			(at 194.31 107.95 0)
-			(uuid "b7ff734d-dc40-43bc-96f7-ce1562bddd96")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "MPPT Eval Board"
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2"
-					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 142.24 77.47)
+		(at 167.64 77.47)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1393,7 +1230,7 @@
 		)
 		(uuid "a5ac04e3-3973-4847-b9e6-f9324013ddf6")
 		(property "Sheetname" "MPPT2"
-			(at 142.24 76.7584 0)
+			(at 167.64 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1404,7 +1241,7 @@
 			)
 		)
 		(property "Sheetfile" "MPPT.kicad_sch"
-			(at 142.24 92.0246 0)
+			(at 167.64 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1415,7 +1252,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 142.24 83.82 180)
+			(at 167.64 83.82 180)
 			(uuid "47aceb5c-d074-4526-a368-2f4a19029e93")
 			(effects
 				(font
@@ -1425,7 +1262,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 165.1 83.82 0)
+			(at 190.5 85.09 0)
 			(uuid "8c773327-f22e-4e79-8994-5ac40fe22924")
 			(effects
 				(font
@@ -1443,7 +1280,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 77.47)
+		(at 120.65 77.47)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1459,7 +1296,7 @@
 		)
 		(uuid "b4135f5d-4784-451d-8a2f-8701e86a974b")
 		(property "Sheetname" "Solar String 2"
-			(at 95.25 76.7584 0)
+			(at 120.65 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1470,7 +1307,7 @@
 			)
 		)
 		(property "Sheetfile" "solar_panel_string.kicad_sch"
-			(at 95.25 92.0246 0)
+			(at 120.65 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1481,7 +1318,7 @@
 			)
 		)
 		(pin "VCHRG" output
-			(at 118.11 83.82 0)
+			(at 143.51 83.82 0)
 			(uuid "24330454-1b2a-4ce9-9685-e0c5b3327473")
 			(effects
 				(font
@@ -1499,7 +1336,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 52.07)
+		(at 167.64 52.07)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1515,7 +1352,7 @@
 		)
 		(uuid "bb6053bf-7e0e-4cfc-8d99-26c367fa0fe2")
 		(property "Sheetname" "MPPT1"
-			(at 142.24 51.3584 0)
+			(at 167.64 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1526,7 +1363,7 @@
 			)
 		)
 		(property "Sheetfile" "MPPT.kicad_sch"
-			(at 142.24 66.6246 0)
+			(at 167.64 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1537,7 +1374,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 142.24 58.42 180)
+			(at 167.64 58.42 180)
 			(uuid "a6fa4c4a-fd5e-4d47-acb1-781e716d28e8")
 			(effects
 				(font
@@ -1547,7 +1384,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 165.1 58.42 0)
+			(at 190.5 59.69 0)
 			(uuid "fc704f02-fcf1-43fb-8835-b30bb62a3b3d")
 			(effects
 				(font
@@ -1565,73 +1402,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 52.07)
-		(size 21.59 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "cc2e24f8-7fe7-4fea-802a-3162fb71f2e7")
-		(property "Sheetname" "Charge OR-ing 1"
-			(at 172.72 51.3584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ChargeOR.kicad_sch"
-			(at 172.72 66.6246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 172.72 58.42 180)
-			(uuid "e0608087-e6de-4d37-af0f-212885e239f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" output
-			(at 194.31 58.42 0)
-			(uuid "702ca404-a956-4af5-9680-b261e494712c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "MPPT Eval Board"
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/f9a24a6b-41e6-42ae-89f7-5eb3c6cae2e2"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 95.25 52.07)
+		(at 120.65 52.07)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1647,7 +1418,7 @@
 		)
 		(uuid "d1ebb1f9-addb-468b-90e7-4e724f38178f")
 		(property "Sheetname" "Solar String 1"
-			(at 95.25 51.3584 0)
+			(at 120.65 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1658,7 +1429,7 @@
 			)
 		)
 		(property "Sheetfile" "solar_panel_string.kicad_sch"
-			(at 95.25 66.6246 0)
+			(at 120.65 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1669,7 +1440,7 @@
 			)
 		)
 		(pin "VCHRG" output
-			(at 118.11 58.42 0)
+			(at 143.51 58.42 0)
 			(uuid "6ded1508-7bf5-4ae7-9bc4-249dba3e594c")
 			(effects
 				(font
@@ -1687,7 +1458,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 101.6)
+		(at 120.65 101.6)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1703,7 +1474,7 @@
 		)
 		(uuid "dadf2483-b98f-47f5-b5e9-58a8c42fc9a1")
 		(property "Sheetname" "Solar String 3"
-			(at 95.25 100.8884 0)
+			(at 120.65 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1714,7 +1485,7 @@
 			)
 		)
 		(property "Sheetfile" "solar_panel_string.kicad_sch"
-			(at 95.25 116.1546 0)
+			(at 120.65 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1725,7 +1496,7 @@
 			)
 		)
 		(pin "VCHRG" output
-			(at 118.11 107.95 0)
+			(at 143.51 107.95 0)
 			(uuid "02833fd4-2cbc-4cdc-8cab-e4ed5afd7c44")
 			(effects
 				(font
