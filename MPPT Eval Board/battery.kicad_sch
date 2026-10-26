@@ -1463,7 +1463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:Keystone_1042"
+		(property "Footprint" "Argus-Miscellaneous:Keystone_1042"
 			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1754,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:Keystone_1042"
+		(property "Footprint" "Argus-Miscellaneous:Keystone_1042"
 			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
