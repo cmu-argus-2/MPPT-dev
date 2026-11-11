@@ -1801,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 208.28 97.79)
+			(xy 200.66 97.79) (xy 212.09 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 181.61 97.79)
+			(xy 176.53 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2408,16 +2408,6 @@
 			(type default)
 		)
 		(uuid "b83030cd-883b-4e73-8c6d-c234f337711f")
-	)
-	(wire
-		(pts
-			(xy 186.69 97.79) (xy 191.77 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9fb59a8-1667-4478-82ae-134d351ff44f")
 	)
 	(wire
 		(pts
@@ -4713,6 +4703,91 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aab8d0da-424a-4710-8f59-65541380f657")
+		(property "Reference" "#PWR026"
+			(at 212.09 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc927b5a-d364-4b07-9154-105d98787ef9")
+		)
+		(instances
+			(project "MPPT Eval Board"
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/1ea8967c-df15-440c-9cba-467fd4e99e59"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/9c2a9894-61df-41e8-89bb-70d2b3e3be9d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/d8c09120-6389-46dc-afcc-2e338f93ff67"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 226.06 113.03 0)
 		(mirror y)
@@ -5307,104 +5382,6 @@
 				)
 				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/d8c09120-6389-46dc-afcc-2e338f93ff67"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 184.15 97.79 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ebb3f59a-d2b8-416a-a6eb-1775021e7e88")
-		(property "Reference" "R24"
-			(at 184.15 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 184.15 95.758 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.15 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 184.15 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C844915"
-			(at 184.15 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34c5e48c-ad63-4b23-9e09-e8cdb89e489a")
-		)
-		(pin "2"
-			(uuid "450579fc-9c75-46b5-be95-2f46e97f8103")
-		)
-		(instances
-			(project "MPPT Eval Board"
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/1ea8967c-df15-440c-9cba-467fd4e99e59"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/9c2a9894-61df-41e8-89bb-70d2b3e3be9d"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/f286b3a3-72b5-4aac-bde0-c8c97c673d46/93ff38a5-1c16-459f-a6b8-5db126d8cff1/d8c09120-6389-46dc-afcc-2e338f93ff67"
-					(reference "R24")
 					(unit 1)
 				)
 			)
