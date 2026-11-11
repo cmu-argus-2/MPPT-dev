@@ -774,7 +774,7 @@
 		)
 		(uuid "20fe2b7b-a6ed-44b3-a929-c96497f6272b")
 	)
-	(label "VSOLAR1"
+	(label "VSOLAR3"
 		(at 105.41 125.73 0)
 		(effects
 			(font
@@ -784,7 +784,7 @@
 		)
 		(uuid "8567d52b-5dbe-4a52-88ea-b98455b02c92")
 	)
-	(label "VSOLAR1"
+	(label "VSOLAR2"
 		(at 105.41 101.6 0)
 		(effects
 			(font
@@ -814,6 +814,165 @@
 			(justify left)
 		)
 		(uuid "ecb8594e-9846-471d-9318-9ccedba65825")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 184.15 88.9) (xy 184.15 64.77) (xy 115.57 64.77) (xy 115.57 66.04) (xy 115.57 88.9)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "857e6570-f657-4259-a9d5-94fd1d3bb88e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 115.57 91.44) (xy 184.15 91.44) (xy 184.15 115.57) (xy 115.57 115.57) (xy 115.57 114.3)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "d523f529-d034-4ce1-9a5c-98629d4939ab")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 115.57 116.84) (xy 115.57 138.43) (xy 185.42 138.43) (xy 185.42 116.84)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "e2898e35-f61b-4ea8-a041-4cfbbb197f97")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98214277-da6a-4aec-aed8-3c8efbc22dcf")
+		(property "Netclass" ""
+			(at 71.12 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "MPPC_SOLAR_STRING_3"
+			(at 181.0385 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 182.88 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae5c01a-cdc1-4872-8fa8-b380c34a9dee")
+		(property "Netclass" ""
+			(at 73.66 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "MPPC_SOLAR_STRING_1"
+			(at 183.5785 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cddc7939-a34e-4972-b71d-5bee09bbc4ff")
+		(property "Netclass" ""
+			(at 71.12 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "MPPC_SOLAR_STRING_2"
+			(at 181.0385 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED_Small")

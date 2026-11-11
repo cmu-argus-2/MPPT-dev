@@ -754,7 +754,7 @@
 		)
 		(uuid "3b098c35-514c-430f-901b-c5257c3c4603")
 	)
-	(label "VSOLAR1"
+	(label "VSOLAR3"
 		(at 149.86 107.95 0)
 		(effects
 			(font
@@ -774,7 +774,7 @@
 		)
 		(uuid "86b5bf6a-d74a-47fb-8e4e-a5f4d01af739")
 	)
-	(label "VSOLAR1"
+	(label "VSOLAR2"
 		(at 149.86 83.82 0)
 		(effects
 			(font
